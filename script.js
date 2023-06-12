@@ -7,7 +7,7 @@ var a = Math.random();
 		var img1 = document.querySelectorAll("img")[0];
 		img1.setAttribute("src", diceLocation);
 	
-		var randomDice2 = randomDice + Math.floor((Math.random() * (6-randomDice)) + 1) - 1;
+		var randomDice2 = Math.floor((Math.random() * (5-randomDice)) + 1) + randomDice;
 		var diceLocation2 = "img/" + "Dice-" + randomDice2 + ".png";
 		var img2 = document.querySelectorAll("img")[1];
 		img2.setAttribute("src", diceLocation2);
