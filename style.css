@@ -43,7 +43,7 @@ h3{
     width: 50%;
 }
 button{
-    margin-top: 40px;
+    margin-top: 24px;
     cursor: pointer;
     height: 54px;
     border-radius: 4px;
@@ -58,9 +58,39 @@ button:hover{
     color: #5C42AD;
 }
 .chance{
-    margin-top: 10px;
+    
     color: palegoldenrod;
-    font-weight: 1000;
-    font-size: 100px;
+    font-weight: 800;
+    font-size: 80px;
     position: relative;
+}
+#dice-btn{
+    color: magenta;
+}
+#chart{
+    color: maroon;
+}
+p{
+    color: gold;
+}
+table{
+    border: 16px solid goldenrod;
+    margin: auto;
+    width: 480px;
+}
+td{
+    width: 100px;
+    height: 60px;
+    background-color: palevioletred;
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: white;
+}
+#return{
+    color: maroon;
+    padding-bottom: 10px;
+
+}
+#t{
+    margin: auto;
 }
